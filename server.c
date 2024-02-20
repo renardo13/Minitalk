@@ -6,13 +6,11 @@
 /*   By: melmarti <melmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/15 18:38:29 by melmarti          #+#    #+#             */
-/*   Updated: 2024/02/19 17:03:45 by melmarti         ###   ########.fr       */
+/*   Updated: 2024/02/20 17:34:11 by melmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
-
-int		g_pid;
 
 void	ft_reconstitute(char *c, siginfo_t *info)
 {
